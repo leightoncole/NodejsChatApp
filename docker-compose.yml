@@ -1,6 +1,6 @@
 version: '3.3'
 services:
-  node:
+  app:
     image: 'leightoncole/chatapp:latest'
     environment:
       - "PORT:3000"
